@@ -19,7 +19,6 @@ jobs:
           ls -a 
           echo To installing maven
           sudo apt update
-          sudo apt-get install -y default-jdk
           checking java version
           java -version
           suto apt-get install -y maven 
