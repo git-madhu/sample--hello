@@ -24,4 +24,4 @@ jobs:
           sudo apt-get install -y maven 
           echo checking maven version
           maven -version
-          echo task complete !!
+          echo task complete!!
