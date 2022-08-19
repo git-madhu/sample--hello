@@ -1,12 +1,10 @@
-name: test4
+name: test5
 
 on:
 
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "branch1" ]
- 
+   
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -60,14 +58,14 @@ jobs:
       
     steps: 
     -  name: show custom env 
-       if: ${{ env.platform == 'Aws'}}
+       if: ${{ env.platform ==! 'Aws'}}
        run: |
          echo "The Platform is ${{ env.platform }}"
          echo "the region is $region " 
 
     -  name: Display default GitHub env. varibles
        run: |
-         echo "GitHub Action Path: $GITHUB_ACTION_PATH"
+         echo "GitHub job-Id: $GITHUB_JOB"
          echo "GitHub Actor: $GITHUB_ACTOR" 
          echo "GitHub Env: $GITHUB_ENV" 
          echo "Github Dispatch: $GITHUB_EVENT_NAME"        
