@@ -1,0 +1,28 @@
+name: test2
+
+on:
+
+  push:
+    branches: [ "branch" ]
+  pull_request:
+    branches: [ "main" ]
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run multi-line script
+        run: |
+          echo what is the directory ?
+          ls -a 
+          echo To installing maven
+          sudo apt update
+          sudo apt-get install -y default-jdk
+          checking java version
+          java -version
+          suto apt-get install -y maven 
+          echo checking maven version
+          maven -version
+          echo task complete !!
