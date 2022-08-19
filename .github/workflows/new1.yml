@@ -54,13 +54,13 @@ jobs:
   job2: 
     runs-on: ubuntu-latest          
     env: 
-      platform: GitHub
-      region: Asia-India
+      platform: AWS
+      region: Mumbai
       profile-path: profile/
       
     steps: 
     -  name: show custom env 
-       if: ${{ env.platform == "GitHub"}}
+       if: ${{ env.platform == "AWS"}}
        run: |
          echo "The Platform is ${{ env.platform }}"
          echo "the region is $region " 
