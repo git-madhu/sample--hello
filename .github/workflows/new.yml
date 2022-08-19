@@ -49,4 +49,27 @@ jobs:
          run: |
            echo Hii Welcome to Windows
            echo get-location Commands
-           Get-Location          
+           Get-Location    
+           
+test: 
+  Display: 
+      runs-on: ubuntu-latest          
+
+      env: 
+        platform: GitHub
+        region: Asia-India
+        profile-path: profile/
+      
+      steps: 
+      -  name: show custom env 
+         if: ${{ env.platform == "GitHub"}}
+         run: |
+           echo "The Platform is ${{ env.platform }}"
+           echo "the region is $region " 
+
+      -  name: Display default GitHub env. varibles
+         run: |
+           echo "GitHub Action Path: $GITHUB_ACTION_PATH"
+           echo "GitHub Actor: $GITHUB_ACTOR" 
+           echo "GitHub Env: $GITHUB_ENV" 
+           echo "Github Dispatch: $GITHUB_EVENT_NAME"        
