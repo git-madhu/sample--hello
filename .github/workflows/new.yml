@@ -25,3 +25,28 @@ jobs:
           echo checking maven version
           mvn -version
           echo task complete !!
+      
+  build-on-ubuntu:
+      runs-on: ubuntu-latest
+     
+      steps:
+      -  name: Run to know workspace location on this created vm
+         run: |
+           echo workspace is 
+           echo $RUNNER_WORKSPACE 
+           echo who is running this ?
+           whoami
+           echo disk available
+           df 
+           echo show available env varibles
+           env
+
+  build-on-windows: 
+      runs-on: windows-latest
+
+      steps:
+      -  name: run windows Commands
+         run: |
+           echo Hii Welcome to Windows
+           echo get-location Commands
+           Get-Location          
