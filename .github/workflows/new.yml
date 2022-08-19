@@ -1,4 +1,4 @@
-name: test2
+name: test3
 
 on:
 
@@ -19,9 +19,9 @@ jobs:
           ls -a 
           echo To installing maven
           sudo apt update
-          checking java version
+          echo checking java version
           java -version
-          suto apt-get install -y maven 
+          sudo apt-get install -y maven 
           echo checking maven version
           maven -version
           echo task complete !!
