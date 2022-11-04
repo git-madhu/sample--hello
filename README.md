@@ -9,3 +9,5 @@
 <p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
 
 [go](http://stackoverflow.com){:target="_blank"}
+
+[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
