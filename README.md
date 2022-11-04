@@ -11,3 +11,7 @@
 [go](http://stackoverflow.com){:target="_blank"}
 
 [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+
+<a href="doc:introduction" target="_blank">Introduction</a>
+
+<a href="https://www.google.com/" target="_blank">Google</a>
