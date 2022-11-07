@@ -42,3 +42,12 @@ yellow { color: yellow }
 <red> red color markdown text</red>
   
 <yellow> red color markdown text</yellow>
+  
+  <span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
+
+  
+  <p style='color:red'>This is some red text.</p>
+<font color="red">This is some text!</font>
+These are <b style='color:red'>red words</b>.
