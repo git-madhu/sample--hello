@@ -30,3 +30,11 @@ renderer.link = (href, title, text) => {
 };
   
   <p><red> red color markdown text</red>
+  
+  <style>
+red { color: red }
+yellow { color: yellow }
+</style>
+
+<red> red color markdown text</red>
+<yellow> red color markdown text</yellow>
