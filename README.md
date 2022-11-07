@@ -20,3 +20,13 @@
 
 
 <a href="example.com" target="_blank">New Tab</a>
+
+sed -i 's|href="http|target="_blank" href="http|g' index.html
+
+const linkRenderer = renderer.link;
+renderer.link = (href, title, text) => {
+  const html = linkRenderer.call(renderer, href, title, text);
+  return html.replace(/^<a /, '<a target="_blank" rel="nofollow" ');
+};
+  
+  <p><red> red color markdown text</red>
