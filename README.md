@@ -51,3 +51,29 @@ yellow { color: yellow }
   <p style='color:red'>This is some red text.</p>
 <font color="red">This is some text!</font>
 These are <b style='color:red'>red words</b>.
+
+  
+  
+  $\colorbox{red}{jcnenvwenvwenve}$
+  
+  $\fbox{Hello there}$
+  
+  # **$\color[RGB]{155,127,0} Hello$**
+  $\color[gray]{0.3} hello$
+  
+  hello\textred
+  
+  # **$${\color{Purple}Welcome \space To \space Github \space!!}$$**
+  
+  u can use \blue
+  
+  ```diff
+  text in red
+  ```
+  
+  
+  ## $\textcolor{green}{This\ is\ a\ Big\ Title}$
+  
+  $\colorbox{red}{text}$
+  
+  **${\color{blue}What\ Is\ Version\ Control?}$** 
