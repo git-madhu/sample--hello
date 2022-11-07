@@ -15,3 +15,5 @@
 <a href="doc:introduction" target="_blank">Introduction</a>
 
 <a href="https://www.google.com/" target="_blank">Google</a>
+
+[my link](https://www.google.com)[newtab]
