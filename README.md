@@ -17,3 +17,6 @@
 <a href="https://www.google.com/" target="_blank">Google</a>
 
 [my link](https://www.google.com)[newtab]
+
+
+<a href="example.com" target="_blank">New Tab</a>
