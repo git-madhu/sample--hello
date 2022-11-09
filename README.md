@@ -80,4 +80,12 @@ These are <b style='color:red'>red words</b>.
   
   sample code---- image to be added to code/files to diapaly image
   ![Alternative text](https://github.com/eidikodev/Git-Best-Practices/blob/test-update--5/og-git-best-practices-1024x538.png)
+  
+  
+    <img src="https://github.com/eidikodev/Git-Best-Practices/blob/test-update--5/git.png" width=50% height=50%>
+    
+    
+    <p align="center">
+  <img src="https://github.com/eidikodev/Git-Best-Practices/blob/test-update--5/git.png" width=50% height=50%/>
+</p>
 
