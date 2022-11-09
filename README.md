@@ -89,3 +89,43 @@ These are <b style='color:red'>red words</b>.
   <img src="https://github.com/eidikodev/Git-Best-Practices/blob/test-update--5/git.png" width=50% height=50%/>
 </p>
 
+<html>
+<head>
+<title> float image and text </title>
+<style type="text/css">
+p{
+font-size: 16px;
+width:60%;
+border: 2px solid black;
+height: 150px; }
+img{
+padding: 10px;
+float: right; }
+</style>
+</head>
+<body>
+<h1> Nature </h1>
+<p>
+
+🔗  [ProGit book](http://git-scm.com/book)
+
+🔗  [Git docs](https://docs.github.com/en/get-started/using-git/about-git)
+
+🔗  [Git command list](https://git-scm.com/docs)
+
+🔗  [GitHub training & Guides in youtube](https://www.youtube.com/githubguides)                    <img width="30%" src="https://github.com/eidikodev/Git-Best-Practices/blob/test-update--5/istockphoto-635805294-612x612.jpg"> 
+
+</p></div>
+</body>
+</html>
+
+
+<!-- In Your Html Code -->
+<img src="https://github.com/eidikodev/Git-Best-Practices/blob/test-update--5/istockphoto-635805294-612x612.jpg">
+<p> 🔗  [ProGit book](http://git-scm.com/book)
+
+🔗  [Git docs](https://docs.github.com/en/get-started/using-git/about-git)
+
+🔗  [Git command list](https://git-scm.com/docs)
+
+🔗  [GitHub training & Guides in youtube](https://www.youtube.com/githubguides)  </p>
