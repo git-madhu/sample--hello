@@ -77,3 +77,7 @@ These are <b style='color:red'>red words</b>.
   $\colorbox{red}{text}$
   
   **${\color{blue}What\ Is\ Version\ Control?}$** 
+  
+  sample code---- image to be added to code/files to diapaly image
+  ![Alternative text](https://github.com/eidikodev/Git-Best-Practices/blob/test-update--5/og-git-best-practices-1024x538.png)
+
