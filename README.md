@@ -32,3 +32,7 @@ markdown_extensions:
   
   
   <a href="www,google.com" target="_blank">New Tab</a>
+  
+  
+  
+  <p>Check out <a href="https://www.freecodecamp.org/">freeCodeCamp</a>.</p>
