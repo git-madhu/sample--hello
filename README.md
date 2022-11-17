@@ -25,3 +25,7 @@ function LinkRenderer(props) {
 <a href="#">https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-access-management#requiring-user-assignment-for-an-app</a>
 
 [Conveyor](www.conveyor.dev){:target="_blank"}
+
+markdown_extensions:
+  - attr_list
+ <a href="https://support.google.com/chrome/answer/95647?hl=es&amp;ref_topic=3421433%3F" target="_blank">
